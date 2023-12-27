@@ -1,0 +1,28 @@
+
+
+.date{
+  color: red;
+  padding: 10px;
+}
+
+.date::-webkit-datetime-edit-text{
+  color: rgb(43, 226, 43);
+} 
+
+.date::-webkit-calendar-picker-indicator{
+  color: red;
+} 
+
+.date::-webkit-datetime-edit-day-field{
+  color: blue;
+}
+
+.date::-webkit-datetime-edit-year-field{
+  border: 1px solid blackrr;
+  color: green;
+}
+
+.date::-webkit-calendar-picker-indicator {
+  background-color: red;
+  padding: 10px;
+}
