@@ -2,12 +2,34 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
     padding: 0;
     margin: 0;
     border: none;
     width: 460px;
     height: 80vh;
-    background-color: rgb(232, 26, 255);
+    background-color: #f4f3ee;
     border-radius: 10px;
     position: relative;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.4) ;
+}
+
+.container-home .wrapper-box{
+
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 130px);
+    background-color: red;
+    border-radius: 0 0 10px 10px;
+}
+
+.wrapper-box .wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: yellow;
+    border-radius: 0 0 10px 10px;
 }
