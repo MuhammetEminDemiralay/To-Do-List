@@ -1,0 +1,9 @@
+.task-list{
+    padding: 8px;
+    background-color: #ffd166;
+    height: calc(100% - 40px);
+    border-radius: 0 0 10px 10px;
+    overflow: scroll;
+    overflow-x: hidden;
+
+}

@@ -27,10 +27,6 @@ function DateTime({handleChange}){
     }, [])
 
 
-    function handleChangeDate(e){
-        const selectTime = e.target.value
-        setDate(e.target.value)
-    }
 
     return (
         <div className='container-date'>
@@ -64,7 +60,7 @@ function DateTime({handleChange}){
                 </div>
             </div>
 
-            <input type="datetime-local" onChange={handleChange}/>
+            <input type="datetime-local" onChange={handleChange} name='date'/>
         </div>
     )
 }
